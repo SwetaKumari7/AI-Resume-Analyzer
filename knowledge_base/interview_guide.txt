@@ -1,0 +1,37 @@
+INTERVIEW PREPARATION GUIDE
+
+Resume Questions:
+
+1. Tell me about yourself.
+2. Explain your most important project.
+3. What problem does your project solve?
+4. What was your contribution?
+5. What challenges did you face?
+6. How did you test your solution?
+7. What would you improve?
+
+Technical Questions:
+
+Programming:
+Data structures, algorithms, OOP, exception handling,
+debugging and complexity analysis.
+
+Database:
+SQL queries, joins, normalization, indexes and transactions.
+
+Web:
+HTTP, REST APIs, authentication and client-server architecture.
+
+AI/ML:
+Training and testing, overfitting, evaluation metrics,
+embeddings, LLMs and retrieval augmented generation.
+
+Behavioral:
+Teamwork, learning from mistakes, handling deadlines,
+communication and problem solving.
+
+Interview Preparation Principle:
+
+Candidates should explain the problem first,
+then the approach, then the technologies used,
+and finally the result.

@@ -1,0 +1,24 @@
+SOFTWARE ENGINEER CAREER GUIDE
+
+Core Skills:
+Data structures, algorithms, object-oriented programming,
+problem solving, programming fundamentals and debugging.
+
+Programming:
+Python, Java, C++, JavaScript and TypeScript are commonly used.
+
+Development:
+Git, GitHub, REST APIs, databases, testing and software design.
+
+Important Interview Topics:
+Arrays, strings, linked lists, stacks, queues, trees,
+graphs, sorting, searching, recursion, dynamic programming,
+OOP, DBMS, operating systems and computer networks.
+
+Project Expectations:
+Projects should demonstrate problem solving, clean code,
+real-world functionality and the ability to explain design decisions.
+
+Typical Skill Gaps:
+Weak DSA, limited SQL, weak system fundamentals,
+poor testing practices and difficulty explaining projects.

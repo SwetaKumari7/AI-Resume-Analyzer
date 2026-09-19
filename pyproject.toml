@@ -1,13 +1,14 @@
 [project]
-name = "project2"
-version = "0.1.0"
-description = "Add your description here"
+name = "ai-resume-job-assistant"
+version = "1.0.0"
+description = "AI Resume and Job Assistant using local LLM, RAG, resume analysis, and career guidance"
 readme = "README.md"
 requires-python = ">=3.13"
+
 dependencies = [
-    "google-genai>=2.13.0",
-    "openai>=2.46.0",
     "pypdf2>=3.0.1",
     "python-dotenv>=1.2.2",
+    "requests>=2.32.0",
+    "scikit-learn>=1.5.0",
     "streamlit>=1.60.0",
 ]

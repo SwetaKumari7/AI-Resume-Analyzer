@@ -1,0 +1,26 @@
+PYTHON DEVELOPER CAREER GUIDE
+
+Core Skills:
+Python programming, object-oriented programming, data structures, algorithms,
+exception handling, file handling, modules, packages and virtual environments.
+
+Web Development:
+Flask, Django, FastAPI, REST APIs, authentication and database integration.
+
+Databases:
+SQL, MySQL, PostgreSQL and SQLite.
+
+Important Supporting Skills:
+Git, GitHub, testing, debugging, API development and basic deployment.
+
+Common Interview Topics:
+Python data structures, decorators, generators, exception handling,
+OOP concepts, REST APIs, SQL queries, joins, indexing and Git.
+
+Useful Projects:
+REST API projects, backend applications, automation tools,
+data processing applications and AI-powered applications.
+
+Typical Skill Gaps:
+Candidates often need stronger SQL, testing, API design,
+deployment and data structures knowledge.

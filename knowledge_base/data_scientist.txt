@@ -1,0 +1,24 @@
+DATA SCIENTIST CAREER GUIDE
+
+Core Skills:
+Python, statistics, probability, data analysis,
+machine learning and data visualization.
+
+Important Libraries:
+NumPy, Pandas, Matplotlib, Seaborn and Scikit-learn.
+
+Machine Learning:
+Regression, classification, clustering,
+feature engineering, model evaluation and cross validation.
+
+Important Concepts:
+Precision, recall, F1 score, ROC-AUC, confusion matrix,
+overfitting, underfitting and feature selection.
+
+Projects:
+Data analysis, prediction systems, recommendation systems,
+classification systems and machine learning applications.
+
+Typical Skill Gaps:
+Statistics, SQL, model evaluation,
+feature engineering and communicating results.

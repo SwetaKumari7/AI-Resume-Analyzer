@@ -1,0 +1,236 @@
+AI RESUME & JOB ASSISTANT
+============================
+
+HOW TO OPEN AND RUN THE PROJECT
+================================
+
+IMPORTANT:
+Keep Ollama running while the Streamlit application is running.
+
+
+STEP 1 - OPEN CMD
+-----------------
+Press:
+
+Windows Key + R
+
+Type:
+
+cmd
+
+Press Enter.
+
+
+STEP 2 - OPEN THE PROJECT FOLDER
+--------------------------------
+Copy and paste:
+
+cd "C:\Users\Sweta kumari\AI-Resume-Analyzer"
+
+
+STEP 3 - CHECK OLLAMA
+---------------------
+Copy and paste:
+
+ollama --version
+
+Then check the installed models:
+
+ollama list
+
+Look for:
+
+gemma3:4b
+
+
+STEP 4 - IF GEMMA 3 4B IS MISSING
+----------------------------------
+Run this only if gemma3:4b is not shown by "ollama list":
+
+ollama pull gemma3:4b
+
+
+STEP 5 - START OLLAMA
+---------------------
+If Ollama is not already running, run:
+
+ollama serve
+
+IMPORTANT:
+Keep this CMD window open.
+
+Ollama runs locally at:
+
+http://127.0.0.1:11434
+
+
+STEP 6 - OPEN A SECOND CMD WINDOW
+---------------------------------
+Do NOT close the CMD window running "ollama serve".
+
+Open another CMD window.
+
+Then run:
+
+cd "C:\Users\Sweta kumari\AI-Resume-Analyzer"
+
+
+STEP 7 - SYNCHRONIZE PROJECT DEPENDENCIES
+-----------------------------------------
+Run:
+
+uv sync
+
+
+STEP 8 - START THE STREAMLIT APPLICATION
+----------------------------------------
+Run:
+
+python -m streamlit run main.py
+
+
+STEP 9 - OPEN THE PROJECT IN YOUR BROWSER
+-----------------------------------------
+Open:
+
+http://localhost:8501
+
+
+The AI Resume & Job Assistant will now open.
+
+
+QUICK VERSION
+=============
+
+CMD WINDOW 1:
+-------------
+ollama serve
+
+
+CMD WINDOW 2:
+-------------
+cd "C:\Users\Sweta kumari\AI-Resume-Analyzer"
+
+uv sync
+
+python -m streamlit run main.py
+
+
+Then open:
+
+http://localhost:8501
+
+
+IF OLLAMA IS ALREADY RUNNING
+============================
+
+You do not need to run:
+
+ollama serve
+
+Just open CMD and run:
+
+cd "C:\Users\Sweta kumari\AI-Resume-Analyzer"
+
+uv sync
+
+python -m streamlit run main.py
+
+Then open:
+
+http://localhost:8501
+
+
+IF YOU FORGET WHETHER GEMMA IS INSTALLED
+========================================
+
+Run:
+
+ollama list
+
+If you see:
+
+gemma3:4b
+
+you are ready.
+
+If you do not see it, run:
+
+ollama pull gemma3:4b
+
+
+HOW TO STOP THE PROJECT
+=======================
+
+To stop Streamlit:
+
+Go to the CMD window running the Streamlit application and press:
+
+CTRL + C
+
+
+If you manually started Ollama with:
+
+ollama serve
+
+go to that CMD window and press:
+
+CTRL + C
+
+
+MOST IMPORTANT COMMANDS TO REMEMBER
+===================================
+
+1. Open project:
+
+cd "C:\Users\Sweta kumari\AI-Resume-Analyzer"
+
+2. Start Ollama if needed:
+
+ollama serve
+
+3. Install/sync dependencies:
+
+uv sync
+
+4. Run project:
+
+python -m streamlit run main.py
+
+5. Open browser:
+
+http://localhost:8501
+
+
+TROUBLESHOOTING
+===============
+
+If "ollama" is not recognized:
+Install Ollama, then close and reopen CMD.
+
+If Gemma is missing:
+ollama pull gemma3:4b
+
+If Ollama connection is refused:
+Run:
+
+ollama serve
+
+Then keep that window open and start Streamlit from another CMD window.
+
+If Streamlit is not available:
+Run:
+
+uv sync
+
+Then:
+
+python -m streamlit run main.py
+
+If the resume cannot be read:
+Currently supported formats are:
+
+PDF
+TXT
+
+Scanned image-only PDFs may not work because OCR is not currently included.

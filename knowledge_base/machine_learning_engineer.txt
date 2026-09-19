@@ -1,0 +1,27 @@
+MACHINE LEARNING ENGINEER CAREER GUIDE
+
+Core Skills:
+Python, machine learning, deep learning,
+data preprocessing and model evaluation.
+
+Frameworks:
+TensorFlow, PyTorch and Scikit-learn.
+
+Important Areas:
+Model training, validation, feature engineering,
+hyperparameter tuning and model deployment.
+
+Engineering Skills:
+APIs, Git, Docker, testing and basic cloud deployment.
+
+AI Skills:
+Natural language processing, computer vision,
+embeddings, LLM applications and RAG systems.
+
+Projects:
+End-to-end machine learning systems,
+AI applications, prediction APIs and intelligent assistants.
+
+Typical Skill Gaps:
+Deployment, software engineering practices,
+model monitoring, testing and production architecture.
